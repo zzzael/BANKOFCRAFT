@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/img/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="assets/img/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+    <link href="assets/img/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+    <link href="assets/img/favicon/apple-touch-icon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="assets/img/favicon/site.html" rel="manifest" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <title>BANKOFYZY.COM</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            width: 100%;
+            max-width: 100vw;
+            max-height: 100vh;
+            padding: 10px; /* Prevents image from touching edges */
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            max-width: 90vw;
+            max-height: 90vh;
+            object-fit: contain; /* Ensures no distortion */
+        }
+    </style>
+</head>
+<body>
+    <!-- header start -->
+    <header class="header">
+        <div class="header-wrapper">
+            <button type="button" title="menu-toggle" class="menu-toggle">
+                <span class="menu-toggle-bar"></span>
+                <span class="menu-toggle-bar"></span>
+            </button>
+            <nav class="header-nav">
+                <a href="index.html" class="nav-link">home</a>
+                <a href="enter.html" class="nav-link">vault</a>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <div class="content">
+        <img src="image.png" alt="Centered Image">
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
